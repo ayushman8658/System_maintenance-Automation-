@@ -1,0 +1,4 @@
+[2025-11-04T20:12:05+00:00] ERROR at ./backup.sh:17
+[2025-11-04T20:15:02+00:00] ERROR at ./update_and_cleanup.sh:15
+[2025-11-04T20:32:11+00:00] ERROR at /home/ayushman/System_maintenance/scripts/backup.sh:17
+[2025-11-04T20:32:34+00:00] ERROR at /home/ayushman/System_maintenance/scripts/update_and_cleanup.sh:15

@@ -1,0 +1,2 @@
+[2025-11-04T20:22:45+00:00] Starting log monitor for /var/log/syslog
+[2025-11-04T20:24:04+00:00] ALERT: 2025-11-04T20:24:04.940834+00:00 AYUSHMAN-MISHRA ayushman: Test error: simulated failure for System_maintenance

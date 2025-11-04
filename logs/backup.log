@@ -1,0 +1,36 @@
+[2025-11-04T20:12:05+00:00] Starting backup to /home/ayushman/System_maintenance/backups/AYUSHMAN-MISHRA_backup_2025-11-04_201205.tar.gz
+tar: Removing leading `/' from member names
+tar: Removing leading `/' from hard link targets
+tar: /etc/gshadow-: Cannot open: Permission denied
+tar: /etc/sudoers.d/README: Cannot open: Permission denied
+tar: /etc/credstore.encrypted: Cannot open: Permission denied
+tar: /etc/shadow-: Cannot open: Permission denied
+tar: /etc/sudoers: Cannot open: Permission denied
+tar: /etc/security/opasswd: Cannot open: Permission denied
+tar: /etc/landscape/client.conf: Cannot open: Permission denied
+tar: /etc/gshadow: Cannot open: Permission denied
+tar: /etc/credstore: Cannot open: Permission denied
+tar: /etc/shadow: Cannot open: Permission denied
+tar: /etc/.pwd.lock: Cannot open: Permission denied
+tar: /etc/ssl/private: Cannot open: Permission denied
+tar: /etc/polkit-1/rules.d: Cannot open: Permission denied
+tar: /home/ayushman/System_maintenance/backups/AYUSHMAN-MISHRA_backup_2025-11-04_201205.tar.gz: file changed as we read it
+tar: Exiting with failure status due to previous errors
+[2025-11-04T20:32:10+00:00] Starting backup to /home/ayushman/System_maintenance/backups/AYUSHMAN-MISHRA_backup_2025-11-04_203210.tar.gz
+tar: Removing leading `/' from member names
+tar: Removing leading `/' from hard link targets
+tar: /etc/gshadow-: Cannot open: Permission denied
+tar: /etc/sudoers.d/README: Cannot open: Permission denied
+tar: /etc/credstore.encrypted: Cannot open: Permission denied
+tar: /etc/shadow-: Cannot open: Permission denied
+tar: /etc/sudoers: Cannot open: Permission denied
+tar: /etc/security/opasswd: Cannot open: Permission denied
+tar: /etc/landscape/client.conf: Cannot open: Permission denied
+tar: /etc/gshadow: Cannot open: Permission denied
+tar: /etc/credstore: Cannot open: Permission denied
+tar: /etc/shadow: Cannot open: Permission denied
+tar: /etc/.pwd.lock: Cannot open: Permission denied
+tar: /etc/ssl/private: Cannot open: Permission denied
+tar: /etc/polkit-1/rules.d: Cannot open: Permission denied
+tar: /home/ayushman/System_maintenance/backups/AYUSHMAN-MISHRA_backup_2025-11-04_203210.tar.gz: file changed as we read it
+tar: Exiting with failure status due to previous errors

@@ -1,0 +1,55 @@
+System report for AYUSHMAN-MISHRA generated at 2025-11-04T20:28:51+00:00
+
+---- UPTIME ----
+ 20:28:51 up 39 min,  1 user,  load average: 0.00, 0.01, 0.00
+
+---- DISK USAGE ----
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.5G     0  1.5G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.5G  4.0K  1.5G   1% /mnt/wsl
+drivers         238G  140G   98G  59% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            1.5G   76K  1.5G   1% /mnt/wslg
+none            1.5G     0  1.5G   0% /usr/lib/wsl/lib
+rootfs          1.5G  2.7M  1.4G   1% /init
+none            1.5G  500K  1.5G   1% /run
+none            1.5G     0  1.5G   0% /run/lock
+none            1.5G     0  1.5G   0% /run/shm
+none            1.5G   76K  1.5G   1% /mnt/wslg/versions.txt
+none            1.5G   76K  1.5G   1% /mnt/wslg/doc
+C:\             238G  140G   98G  59% /mnt/c
+D:\             297G   13G  284G   5% /mnt/d
+E:\             343G  188G  155G  55% /mnt/e
+F:\             293G  104G  190G  36% /mnt/f
+tmpfs           288M   20K  288M   1% /run/user/1000
+
+---- MEMORY ----
+               total        used        free      shared  buff/cache   available
+Mem:           2.8Gi       393Mi       2.4Gi       3.4Mi       145Mi       2.4Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+---- TOP 10 CPU PROCESSES ----
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.4  21812 12500 ?        Ss   19:49   0:02 /sbin/init
+root         129  0.0  0.2  25228  6528 ?        Ss   19:49   0:00 /usr/lib/systemd/systemd-udevd
+root          64  0.0  0.5  66828 16992 ?        S<s  19:49   0:00 /usr/lib/systemd/systemd-journald
+ayushman    1345  0.0  0.1   6072  5120 pts/2    Ss+  20:24   0:00 -bash
+root         201  0.0  0.7  29564 20736 ?        Ss   19:49   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         238  0.0  0.7 107012 22400 ?        Ssl  19:49   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         214  0.0  0.4 1756096 12928 ?       Ssl  19:49   0:00 /usr/libexec/wsl-pro-service -vv
+systemd+     157  0.0  0.4  21456 12416 ?        Ss   19:49   0:00 /usr/lib/systemd/systemd-resolved
+polkitd      823  0.0  0.2 308164  7808 ?        Ssl  20:16   0:00 /usr/lib/polkit-1/polkitd --no-debug
+message+     197  0.0  0.1   9644  5120 ?        Ss   19:49   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+
+---- TOP 10 MEMORY PROCESSES ----
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         238  0.0  0.7 107012 22400 ?        Ssl  19:49   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         201  0.0  0.7  29564 20736 ?        Ss   19:49   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          64  0.0  0.5  66828 16992 ?        S<s  19:49   0:00 /usr/lib/systemd/systemd-journald
+root         214  0.0  0.4 1756096 12928 ?       Ssl  19:49   0:00 /usr/libexec/wsl-pro-service -vv
+root           1  0.1  0.4  21812 12500 ?        Ss   19:49   0:02 /sbin/init
+systemd+     157  0.0  0.4  21456 12416 ?        Ss   19:49   0:00 /usr/lib/systemd/systemd-resolved
+ayushman     396  0.0  0.3  20324 11136 ?        Ss   19:49   0:00 /usr/lib/systemd/systemd --user
+root         212  0.0  0.2  17964  8192 ?        Ss   19:49   0:00 /usr/lib/systemd/systemd-logind
+polkitd      823  0.0  0.2 308164  7808 ?        Ssl  20:16   0:00 /usr/lib/polkit-1/polkitd --no-debug
+systemd+     162  0.0  0.2  91024  7424 ?        Ssl  19:49   0:00 /usr/lib/systemd/systemd-timesyncd

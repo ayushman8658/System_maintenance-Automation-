@@ -1,0 +1,65 @@
+[2025-11-04T20:14:50+00:00] Starting system update
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1299 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [378 kB]
+Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+Get:9 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [906 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:12 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7140 B]
+Get:13 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+Get:15 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Get:16 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+Get:17 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [208 B]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+Fetched 3230 kB in 4s (850 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+51 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ libpam-systemd : Depends: systemd (= 255.4-1ubuntu8.10) but 255.4-1ubuntu8.11 is installed
+ systemd : Depends: libsystemd0 (= 255.4-1ubuntu8.11) but 255.4-1ubuntu8.10 is installed
+ systemd-sysv : Depends: systemd (= 255.4-1ubuntu8.10) but 255.4-1ubuntu8.11 is installed
+ udev : Depends: libudev1 (= 255.4-1ubuntu8.11) but 255.4-1ubuntu8.10 is installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+[2025-11-04T20:32:27+00:00] Starting system update
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+51 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ libpam-systemd : Depends: systemd (= 255.4-1ubuntu8.10) but 255.4-1ubuntu8.11 is installed
+ systemd : Depends: libsystemd0 (= 255.4-1ubuntu8.11) but 255.4-1ubuntu8.10 is installed
+ systemd-sysv : Depends: systemd (= 255.4-1ubuntu8.10) but 255.4-1ubuntu8.11 is installed
+ udev : Depends: libudev1 (= 255.4-1ubuntu8.11) but 255.4-1ubuntu8.10 is installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
