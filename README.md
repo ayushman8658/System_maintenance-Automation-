@@ -1,4 +1,4 @@
-# 🧰 System Maintenance Automation Suite (Bash Project)
+# 🧰 System Maintenance Automation Suite (BashScripting Project)
 
 A complete **Bash Scripting Suite** that automates essential Linux system maintenance tasks.  
 Developed as part of the Capstone Project — *Bash Scripting Suite for System Maintenance*.
